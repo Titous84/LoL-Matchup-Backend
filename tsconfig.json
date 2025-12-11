@@ -10,12 +10,11 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-
     "resolveJsonModule": true,
-    "noImplicitAny": false,
 
-    // Source : ChatGPT
-    "typeRoots": ["./node_modules/@types"]
+    "noEmitOnError": true,
+    "noImplicitAny": false
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
