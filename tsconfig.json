@@ -1,18 +1,21 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "CommonJS",
-    "rootDir": "./src",
-    "outDir": "./dist",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "outDir": "dist",
+
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-
-    // Source : OpenAI ChatGPT
-    "typeRoots": ["./node_modules/@types"],
     "resolveJsonModule": true,
-    "moduleResolution": "node",
+
+    // Source : ChatGPT
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types"],
+
     "noImplicitAny": false
   },
   "include": ["src"]
