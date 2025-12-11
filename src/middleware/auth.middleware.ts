@@ -19,10 +19,7 @@ const JWT_SECRET = process.env.JWT_SECRET || 'changeme';
  * On étend le type Request pour y ajouter "user".
  */
 export interface AuthRequest extends Request {
-  user?: {
-    id: string;
-    email: string;
-  };
+  user?: any;
 }
 
 /**
