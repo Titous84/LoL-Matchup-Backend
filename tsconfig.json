@@ -8,7 +8,13 @@
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+
+    // Source : OpenAI ChatGPT
+    "types": ["node"],
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false
   },
   "include": ["src"]
 }
