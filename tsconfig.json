@@ -2,7 +2,6 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "CommonJS",
-    "moduleResolution": "node",
     "rootDir": "./src",
     "outDir": "./dist",
     "strict": true,
@@ -11,7 +10,7 @@
     "skipLibCheck": true,
 
     // Source : OpenAI ChatGPT
-    "types": ["node"],
+    "typeRoots": ["./node_modules/@types"],
     "resolveJsonModule": true,
     "moduleResolution": "node",
     "noImplicitAny": false
